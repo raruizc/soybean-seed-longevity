@@ -1,0 +1,6 @@
+# Template for data/raw/external/qtl/storability_qtl_curated.csv (lines starting with # are ignored)
+# One row per QTL or QTL hotspot. Required columns: qtl_id, source, trait_group, chromosome, start_bp, end_bp, assembly.
+# trait_group: storability_longevity (natural or accelerated ageing, viability after storage), germination_vigor (germination rate/index, vigor without ageing), other
+# assembly: only rows with "Wm82.a4" enter the test. Wm82.a1/a2 or cM-only rows stay in the table with start_bp/end_bp empty or the original values and are reported as left out.
+# interval_basis: flanking_markers, LD_block, peak_plus_window, confidence_interval
+qtl_id,source,doi,trait_group,trait,population,chromosome,start_bp,end_bp,assembly,interval_basis,flanking_markers,original_assembly,original_start_bp,original_end_bp,notes

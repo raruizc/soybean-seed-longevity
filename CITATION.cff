@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "soybean-seed-longevity: public transcriptomes to prioritize GWAS candidates for soybean seed longevity"
+type: software
+authors:
+  - family-names: "Ruiz-Cardozo"
+    given-names: "Ricardo Antonio"
+    orcid: "https://orcid.org/0009-0003-9162-8396"
+    affiliation: "Graduate Program in Statistics and Agricultural Experimentation, Luiz de Queiroz College of Agriculture (ESALQ), University of São Paulo"
+version: "1.0.0"
+date-released: "2026-11-19"
+license: MIT
+# repository-code: "https://github.com/YOUR_USER/soybean-seed-longevity"
+keywords:
+  - Glycine max
+  - seed longevity
+  - seed storability
+  - GWAS candidate prioritization
+  - coexpression network
+  - R

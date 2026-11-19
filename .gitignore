@@ -1,0 +1,14 @@
+# Raw data and regenerable outputs are not versioned (folder skeleton kept with .gitkeep)
+data/raw/**
+!data/raw/**/
+!data/raw/README.md
+!data/raw/**/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+results/
+figures/
+logs/
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
